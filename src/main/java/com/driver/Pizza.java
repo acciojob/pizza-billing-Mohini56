@@ -94,6 +94,6 @@ public class Pizza {
         bill = bill + "Total Price: " + totalPrice + "\n";
         return this.bill;
 
-    
+    }
 }
 
