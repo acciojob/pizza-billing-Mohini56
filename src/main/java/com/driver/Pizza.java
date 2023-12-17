@@ -38,8 +38,8 @@ public class Pizza {
 
     public void addExtraToppings(){
         // your code goes here
-        price=price+ExtraToppings;
-        this.bill=this.bill+"Extra Toppings Added: "+ExtraToppings+"\n";
+        price=price+ExtraTopping;
+        this.bill=this.bill+"Extra Toppings Added: "+ExtraTopping+"\n";
     }
     }
 
