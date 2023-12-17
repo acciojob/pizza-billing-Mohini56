@@ -21,7 +21,7 @@ public class Pizza {
             this.ExtraTopping=120;
             this.bill="Base price of Pizza: "+ 400+"\n";
         }
-        this.ExtraTopping=80;
+        this.ExtraCheese=80;
         this.PaperBag=20;
         
     }
@@ -39,7 +39,7 @@ public class Pizza {
     public void addExtraToppings(){
         // your code goes here
         price=price+ExtraToppings;
-        this.bill=this.bill+"Extra cheese Added: "+ExtraToppings+"\n";
+        this.bill=this.bill+"Extra Toppings Added: "+ExtraToppings+"\n";
     }
     }
 
